@@ -1,8 +1,8 @@
 function textNormalizer(text) {
   // your code here
   let str = text.toLowerCase();  
-  str = str.replace(/^\s*/, "");  //regexp replace ^(at start) \s(spaces) *(any number), replace with ""  
-  str = str.replace(/\s*$/, "");  //regexp replace (\s)space *(any amount of) $(at end), to ""
+  str = str.replace(/^\s*/, "");  /*regexp replace ^(at start) \s(spaces) *(any number), replace with "" */  
+  str = str.replace(/\s*$/, "");  /*regexp replace (\s)space *(any amount of) $(at end), to "" */
   return str;
 }
 
